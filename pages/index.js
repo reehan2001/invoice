@@ -994,7 +994,7 @@ const handleAnalysisClick = () =>{
         }}
         >Download Excel Sheet</Button>
          
-        <Button type="submit" onClick={handleFormSubmit}
+        <Button onClick={handleFormSubmit}
         sx={{
           display: "inline-block",
           outline: "none",
@@ -1025,7 +1025,7 @@ const handleAnalysisClick = () =>{
           Submit
         </Button>
         <Button
-  type="submit"
+  
   onClick={handleIncompleteSubmit}
   sx={{
     display: "inline-block",
@@ -1059,7 +1059,7 @@ const handleAnalysisClick = () =>{
 </Button>
         </form>
         <Button
-  type="submit"
+  
   onClick={handleAnalysisClick}
   sx={{
     display: "inline-block",
